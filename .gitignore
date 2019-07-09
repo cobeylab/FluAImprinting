@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+slurm*.out
+results*/
+temp_*/
+*/simulated_data/*
