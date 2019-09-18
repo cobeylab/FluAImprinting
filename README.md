@@ -7,4 +7,4 @@ Data and Code for Arevalo, et al., 2019 (Earliest infections predict the age dis
 
 The required python and R packages can be installed by creating a conda environment with the included `FluAImprinting.yml` file as follows:
 
-`conda env create -f PopCOGenT.yml`
+`conda env create -f FluAImprinting.yml`
