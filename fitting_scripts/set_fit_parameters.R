@@ -33,6 +33,7 @@ Vimprinting_lower = rep(0, length(Vimprinting_param_names))
 names(Vimprinting_guess) = names(Vimprinting_lower) = names(Vimprinting_upper) = Vimprinting_param_names
 
 parameters = list(
+
                 DAHVage_subtype=c(A_param_names, Vage_param_names, 'H1m', 'H3m'),
                 DAHNVage_subtype=c(A_param_names, Vage_param_names, 'H1m', 'H3m', 'N2m'),
                 DAHNVage_group=c(A_param_names, Vage_param_names, 'H1m', 'H3m', 'N2m'),
@@ -45,6 +46,11 @@ parameters = list(
                 DAHNVcohort_subtype=c(A_param_names, Vcohort_param_names, 'H1m', 'H3m', 'N2m'),
                 DAHNVcohort_group=c(A_param_names, Vcohort_param_names, 'H1m', 'H3m', 'N2m'),
                 DAHVcohort_subtype=c(A_param_names, Vcohort_param_names, 'H1m', 'H3m'),
+                DAVage=c(A_param_names, Vage_param_names),
+                DAVseason=c(A_param_names, V_param_names),
+                DAVcohort=c(A_param_names,Vcohort_param_names),
+                DAVmean=c(A_param_names,'ve_h1','ve_h3'),
+
                 DAHVage_subtype_vProtect_h=c(A_param_names, Vage_param_names, 'H1m', 'H3m'))
 
 
