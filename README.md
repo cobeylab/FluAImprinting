@@ -1,5 +1,5 @@
 # Earliest infections predict the age distribution of seasonal influenza A cases
-Data and Code for [Arevalo, et al., 2019 (Earliest infections predict the age distribution of seasonal influenza A cases)](https://www.medrxiv.org/content/10.1101/19001875v2).
+Data and Code for [Arevalo, et al., 2019 (Earliest infections predict the age distribution of seasonal influenza A cases)](https://elifesciences.org/articles/50060).
 
 # Dependencies
 
